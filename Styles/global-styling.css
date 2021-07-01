@@ -1,4 +1,10 @@
-* {
-    font: 300;
-    text-align: center;
+h1 {
+  text-align: right;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  text-align: left;
+  color: blue;
+  break-after: page;
 }
