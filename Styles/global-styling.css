@@ -14,15 +14,17 @@ p {
   color: blue;
   break-after: page;
 }
+img {
+  img: 100%;
+}
 
 /* Elements styling */
 .second-copy-banner {
   position: absolute;
 }
 .banner {
-  left: 100px;
-  top: 150px;
+  float: left;
 }
 .second-banner-copy {
-  right: 100px;
+  float: right;
 }
