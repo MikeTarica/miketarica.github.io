@@ -20,11 +20,12 @@ img {
 
 /* Elements styling */
 .second-copy-banner {
-  position: absolute;
 }
 .banner {
+  position: absolute;
   float: left;
 }
 .second-banner-copy {
+  position: absolute;
   float: right;
 }
