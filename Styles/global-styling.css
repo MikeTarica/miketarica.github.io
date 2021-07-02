@@ -1,3 +1,4 @@
+/* Global stylying */
 html {
   padding: 0 auto;
   margin: 0 auto;
@@ -12,4 +13,16 @@ p {
   text-align: left;
   color: blue;
   break-after: page;
+}
+
+/* Elements styling */
+.second-copy-banner {
+  position: absolute;
+}
+.banner {
+  left: 100px;
+  top: 150px;
+}
+.second-banner-copy {
+  right: 100px;
 }
