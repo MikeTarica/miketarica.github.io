@@ -23,7 +23,7 @@ img {
    overflow: auto;
    white-space: nowrap;
    display: inline-block;
-   color: white;
+   color: rgb(0, 0, 0);
    text-align: center;
    padding: 14px;
 
@@ -36,6 +36,11 @@ a:-webkit-any-link {
 
 a:hover {
   background-color: #777;
+
+}
+.padding-banner {
+  padding: 0 auto;
+  margin: 0 auto;
 
 }
 
