@@ -17,32 +17,43 @@ p {
 img {
   img: 100%;
 }
- ul {
-   text-decoration: none;
- }
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  overflow: auto;
+  white-space: nowrap;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+
+}
+
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
   text-decoration: none;
-/* Elements styling */
-.second-copy-banner {
-}
-.banner {
-  position: absolute;
-  float: left;
-}
-.second-banner-copy {
-  position: absolute;
-  float: right;
-}
+  /* Elements styling */
+  .second-copy-banner {}
 
-.second-copy-banner-section-2 {
-}
-.banner-section-2 {
-  position: absolute;
-  float: left;
-}
-.second-banner-copy-section-2 {
-  position: absolute;
-  float: right;
-}
+  .banner {
+    position: absolute;
+    float: left;
+  }
+
+  .second-banner-copy {
+    position: absolute;
+    float: right;
+  }
+
+  .second-copy-banner-section-2 {}
+
+  .banner-section-2 {
+    position: absolute;
+    float: left;
+  }
+
+  .second-banner-copy-section-2 {
+    position: absolute;
+    float: right;
+  }
