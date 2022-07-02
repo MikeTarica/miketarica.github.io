@@ -24,6 +24,13 @@ a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #777;
+
+}
+
 /* Elements styling */
 .second-copy-banner {
 }
