@@ -19,6 +19,14 @@ img {
 }
  ul {
    text-decoration: none;
+   list-style-type: none;
+   overflow: auto;
+   white-space: nowrap;
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px;
+
  }
 a:-webkit-any-link {
   color: -webkit-link;
