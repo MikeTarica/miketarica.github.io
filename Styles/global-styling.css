@@ -20,7 +20,10 @@ img {
  ul {
    text-decoration: none;
  }
-
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
 /* Elements styling */
 .second-copy-banner {
 }
