@@ -3,19 +3,23 @@ html {
   padding: 0 auto;
   margin: 0 auto;
 }
+
 h1 {
   text-align: right;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 p {
   text-align: left;
   color: blue;
   break-after: page;
 }
+
 img {
   img: 100%;
 }
+
 ul {
   text-decoration: none;
   list-style-type: none;
@@ -27,18 +31,22 @@ ul {
   padding: 14px;
 
 }
+
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
   text-decoration: none;
 }
+
 a:hover {
   background-color: #777;
 }
+
 .padding-banner {
   padding: 0 auto;
   margin: 0 auto;
 }
+
 /* Elements styling */
 .second-copy-banner {}
 
@@ -46,19 +54,24 @@ a:hover {
   position: absolute;
   float: left;
 }
+
 .second-banner-copy {
   position: absolute;
   float: right;
 }
+
 .second-copy-banner-section-2 {}
+
 .banner-section-2 {
   position: absolute;
   float: left;
 }
+
 .second-banner-copy-section-2 {
   position: absolute;
   float: right;
 }
+
 /* search bar */
 .searchbox {
   float: left;
