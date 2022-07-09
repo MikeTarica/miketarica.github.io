@@ -27,23 +27,18 @@ ul {
   padding: 14px;
 
 }
-
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
   text-decoration: none;
 }
-
 a:hover {
   background-color: #777;
-
 }
 .padding-banner {
   padding: 0 auto;
   margin: 0 auto;
-
 }
-
 /* Elements styling */
 .second-copy-banner {}
 
@@ -55,9 +50,7 @@ a:hover {
   position: absolute;
   float: right;
 }
-
 .second-copy-banner-section-2 {}
-
 .banner-section-2 {
   position: absolute;
   float: left;
@@ -66,9 +59,7 @@ a:hover {
   position: absolute;
   float: right;
 }
-
 /* search bar */
-
 .searchbox {
   float: left;
 }
