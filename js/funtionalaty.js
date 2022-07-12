@@ -2,14 +2,14 @@
 // window.alert("sometext");
 // console.log(message)
 
-let person = prompt("Please enter your name so we can make it a personal experince for you", "your name");
-let text;
-if (person == null || person == "") {
-    text = "User cancelled the prompt.";
-} else {
-    text = "Hello " + person + "! How are you today?";
-}
-Console.log(person);
+// let person = prompt("Please enter your name so we can make it a personal experince for you", "your name");
+// let text;
+// if (person == null || person == "") {
+//     text = "User cancelled the prompt.";
+// } else {
+//     text = "Hello " + person + "! How are you today?";
+// }
+// Console.log(person);
 // Pop up disclaimor box
 // $(function () {
 //             var overlay = $('<div id="overlay"></div>');
