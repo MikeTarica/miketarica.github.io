@@ -6,8 +6,25 @@ body {
 }
 h1 {
   text-align: right;
-  font-size: 20px;
+  font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  background-color: rgb(162, 165, 166);
+}
+
+.site-heading {
+  float: right;
+}
+
+.scrollmenu {}
+
+.searchbox {
+  float: right;
+}
+
+.body-copy {
+  padding-top: 121px;
 }
 
 p {
@@ -25,11 +42,15 @@ ul {
   list-style-type: none;
   overflow: auto;
   white-space: nowrap;
-  display: inline-block;
+  display: inline-flex;
   color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px;
+  text-align: left;
+  float: left;
 
+}
+li {
+  padding: 5px;
+  font-size: 21px;
 }
 
 a:-webkit-any-link {
@@ -48,7 +69,7 @@ a:hover {
 }
 
 /* Elements styling */
-.second-copy-banner {}
+/* .second-copy-banner {}
 
 .banner {
   position: absolute;
@@ -72,8 +93,10 @@ a:hover {
   float: right;
 }
 
+*/
+
 /* search bar */
-.searchbox {
+/* .searchbox {
   float: left;
 }
 
@@ -99,8 +122,10 @@ input[type=text] {
   background: blue;
 }
 
+*/
+
 /* scrollable menu  */
-div.scrollmenu {
+/* div.scrollmenu {
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
@@ -118,8 +143,10 @@ div.scrollmenu a:hover {
   background-color: #777;
 }
 
+*/
+
 /* css for pop up box */
-#overlay {
+/* #overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -163,10 +190,12 @@ div.scrollmenu a:hover {
   clear: both;
   color: #555555;
   /* text-align: justify; */
-  font-size: 20px;
-  font-family: sans-serif;
-}
+  /* font-size: 20px;
+  font-family: sans-serif; */
+  }
 
+  */
+  /* 
 .cnt223 p a {
   color: #d91900;
   font-weight: bold;
@@ -184,3 +213,4 @@ div.scrollmenu a:hover {
 .cnt223 .x:hover {
   cursor: pointer;
 }
+*/
