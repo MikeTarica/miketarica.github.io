@@ -10,7 +10,6 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 nav {
-  background-color: rgb(162, 165, 166);
 }
 
 .site-heading {
@@ -46,6 +45,7 @@ ul {
   color: rgb(0, 0, 0);
   text-align: left;
   float: left;
+  padding-left: 0px;
 
 }
 li {
