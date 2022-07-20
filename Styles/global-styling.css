@@ -25,7 +25,9 @@ nav {
 .body-copy {
   padding-top: 121px;
 }
-
+.padding-banner {
+  padding: 20px;
+}
 p {
   text-align: left;
   color: blue;
