@@ -93,6 +93,7 @@ a:hover {
 .second-banner-copy-section-2 {
   position: absolute;
   float: right;
+  float: left;
 }
 
 */
@@ -194,10 +195,7 @@ div.scrollmenu a:hover {
   /* text-align: justify; */
   /* font-size: 20px;
   font-family: sans-serif; */
-  }
-
-  */
-  /* 
+}
 .cnt223 p a {
   color: #d91900;
   font-weight: bold;
@@ -216,3 +214,6 @@ div.scrollmenu a:hover {
   cursor: pointer;
 }
 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
