@@ -3,6 +3,7 @@ html {
 }
 body {
   margin: 1.1rem;
+  padding: 10px;
 }
 h1 {
   text-align: right;
@@ -11,9 +12,12 @@ h1 {
 }
 nav {
 }
-
+.header-section-body {
+  background-color: rgb(177, 65, 65);
+}
 .site-heading {
-  float: right;
+float: right;
+margin: 58px 19px 20px 0px;
 }
 
 .scrollmenu {}
@@ -214,6 +218,3 @@ div.scrollmenu a:hover {
   cursor: pointer;
 }
 */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
