@@ -5,9 +5,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252a;
 }
 
+body {
+  background-image: linear-gradient(to bottom, #24252a, rgba(222, 211, 211, 0.466), white);
+}
+
+form {
+  float: right;
+}
 li,
 a,
 button {
@@ -23,33 +29,47 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-html {
-}
+html {}
+
 body {
   margin: 1.1rem;
   padding: 10px;
 }
 h1 {
   font-size: 24px;
-  font-family: font-family: "Sonsie One",
+  font-family: "Sonsie One",
+  Arial,
+  Helvetica,
   sans-serif;
   }
 
-  h2 {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+  font-size: 20px;
+  /* font-family: "Sonsie One",
+  sans-serif; */
   }
 
-  h3 {
-    font-size: 7px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-nav {
-}
+h3 {
+  font-size: 7px;
+  /* font-family: "Sonsie One",
+  sans-serif; */
+  }
+nav {}
+
 .header-section-body {
-  background-color: rgb(177, 65, 65);
+  background-image: linear-gradient(rgba(255, 60, 60, 0.114), rgba(210, 200, 200, 0.195), rgba(255, 255, 255, 0));
 }
 .site-heading {
 float: right;
-margin: 58px 19px 20px 0px;
+margin: 21px 23px 23px 21px;
+}
+
+.scrollmenu {
+  padding: 8px 13px 9px 7px;
+  font-size: 0px;
+}
+
+image {
+  width: 20%;
+  height: auto;
 }
