@@ -8,7 +8,8 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom, #24252a, rgba(222, 211, 211, 0.466), white);
+  /* background-image: linear-gradient(to bottom, #24252a, rgba(222, 211, 211, 0.466), white); */
+  margin: 25px;
 }
 
 form {
@@ -20,7 +21,7 @@ button {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 500;
   font-size: 15px;
-  color: #edf0f1;
+  color: #16a6d687;
   text-decoration: none;
 }
 
@@ -38,30 +39,39 @@ body {
 h1 {
   font-size: 24px;
   font-family: "Sonsie One",
-  Arial,
-  Helvetica,
-  sans-serif;
-  }
+    Arial,
+    Helvetica,
+    sans-serif;
+  background-image: linear-gradient(rgba(255, 60, 60, 0.114), rgba(210, 200, 200, 0.195), rgba(255, 255, 255, 0));
+
+}
 
 h2 {
   font-size: 20px;
   /* font-family: "Sonsie One",
   sans-serif; */
-  }
+}
 
 h3 {
   font-size: 7px;
   /* font-family: "Sonsie One",
   sans-serif; */
-  }
+}
+
 nav {}
 
 .header-section-body {
-  background-image: linear-gradient(rgba(255, 60, 60, 0.114), rgba(210, 200, 200, 0.195), rgba(255, 255, 255, 0));
+  margin-bottom: 2%;
+  border-radius: 10%;
 }
+.body-copy {
+  margin-bottom: 2%;
+}
+
 .site-heading {
-float: right;
-margin: 21px 23px 23px 21px;
+  float: right;
+  margin: 21px 23px 23px 21px;
+  color: white;
 }
 
 .scrollmenu {
@@ -69,7 +79,19 @@ margin: 21px 23px 23px 21px;
   font-size: 0px;
 }
 
-image {
-  width: 20%;
+img {
+  max-width: 7%;
   height: auto;
+  border-radius: 8px;
+  opacity: 0.5;
 }
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
