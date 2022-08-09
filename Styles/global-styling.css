@@ -85,11 +85,27 @@ img {
   border-radius: 8px;
   opacity: 0.5;
 }
+/* image 3 column  */
+div.polaroid-container {
+  box-sizing: border-box;
+}
+
+.polaroid-body::after {
+
+  content: "";
+  clear: both;
+  display: table;
+}
 div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%),
+    0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-bottom: 25px;
+    max-width: 28%;
+    float: left;
+    width: 33.33%;
+    padding: 13px;
+    margin: 12px;
 }
 
 div.container {
