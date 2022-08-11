@@ -51,7 +51,7 @@ h1 {
     Arial,
     Helvetica,
     sans-serif;
-  background-image: linear-gradient(rgba(255, 60, 60, 0.114), rgba(210, 200, 200, 0.195), rgba(255, 255, 255, 0));
+  /* background-image: linear-gradient(rgba(255, 60, 60, 0.114), rgba(210, 200, 200, 0.195), rgba(255, 255, 255, 0)); */
 
 }
 
@@ -85,7 +85,7 @@ img {
 }
 
 .site-heading {
-  loat: right;
+  float: right;
   margin: 21px 23px 23px 21px;
   color: black;
   padding: 5px 10px 10px 10px;
