@@ -1,15 +1,46 @@
 /* font import */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One);
+/* Color branding roots */
+:root {
+  /* Branding Colors */
+  --main-branding-color: rgb(255, 0, 43);
+  --main-branding-sub: rgb(0, 0, 0);
+  --main-background-grey: rgba(190, 185, 185, 0.42);
+  --secondary-branding-alt: rgba(255, 187, 0, 0.876);
+  /* Fonts */
+  --font-sizing-paragraphs: 1.2rem;
+  --font-type-1-main: "Open Sans Condensed",
+    sans-serif;
+  --font-type-2-header-tags: "Sonsie One",
+    sans-serif;
+  /* sizing  */
+  --font-type-1-header-size-large: 1.4rem;
+}
+
 /* Global stylying */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+@media (max-width: 1920px) {
+  html {
+    font-size: var(--font-type-1-header-size-large);
+  }
+}
+
+html {
+  font-size: 14px;
+}
+
 body {
-  /* background-image: linear-gradient(to bottom, #24252a, rgba(222, 211, 211, 0.466), white); */
+  margin: 1.1rem;
+  padding: 10px;
   margin: 25px;
+}
+
+nav {
+  background-color: var(--main-background-grey);
 }
 
 form {
@@ -24,14 +55,13 @@ ul {
 li,
 a,
 button {
-font-family: "Open Sans Condensed",
-sans-serif;
-font-weight: 500;
-font-size: 22px;
-color: #00000087;
-text-decoration: none;
-display: inline;
-padding: 5px;
+  font-family: var(--font-type-1-main);
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--main-branding-sub);
+  text-decoration: none;
+  display: inline;
+  padding: 5px;
 }
 
 header {
@@ -39,77 +69,75 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100;
-  background-image: linear-gradient (rgba (4, 9, 30, 0, 7), rgba (4, 9, 30, 0, 7)),
-  url (image/bracground.jpg);
   background-postion: center;
   background-size: cover;
   position: relative;
-  }
-
-  nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
+  background-color: var(--secondary-branding-alt);
 }
-html {}
 
-body {
-  margin: 1.1rem;
-  padding: 10px;
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-type-2-header-tags);
+}
+
 h1 {
-  font-size: 35px;
-  padding-bottom: 3%;
-  font-family: "Sonsie One",
-    Arial,
-    Helvetica,
-    sans-serif;
-  /* background-image: linear-gradient(rgba(255, 60, 60, 0.114), rgba(210, 200, 200, 0.195), rgba(255, 255, 255, 0)); */
+  /* font-size: 2.2rem; */
+  font-size: var(--font-type-1-header-size-large);
+  padding-bottom: 1.5rem;
+  color: var(--main-branding-sub);
 
 }
 
 h2 {
-  font-size: 25 px;
-  font-family: "Sonsie One",
-  sans-serif;
-  padding-bottom: 1%;
+  font-size: 1.8rem;
+  padding: 1rem;
+  color: var(--main-branding-sub);
 }
 
 h3 {
-  font-size: 23px;
-  font-family: "Sonsie One",
-  sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: var(--main-branding-sub);
   }
 
-  p {
-    font-size: 18px;
-    padding-bottom: 18px;
+p {
+  font-size: 1.8rem;
+  padding: 1rem;
+  color: var(--main-branding-sub);
+  font-size: var(--font-sizing-paragraphs);
 }
-
-nav {}
-
 img {
-  max-width: 7%;
+  max-width: 90%;
   height: auto;
   border-radius: 8px;
   opacity: 0.5;
 }
+sup {
+  padding: 1rem;
+  font-size: var();
+}
 /* second heading ammendment  */
-
 .header-section-body {
-  margin-bottom: 2%;
-  border-radius: 10%;
+  margin-bottom: 2px;
 }
 .body-copy {
   margin-bottom: 2%;
 }
 
 .site-heading {
-  float: right;
-  margin: 21px 23px 23px 21px;
   color: black;
-  padding: 5px 10px 10px 10px;
   letter-spacing: 2px;
 }
 
@@ -118,79 +146,69 @@ img {
   font-size: 20px;
   float: left;
 }
-
-
 /* image columns  */
 .body-creative-work {
   padding-top: 2%;
 }
-
-
 /* image 3 column  */
-
-
 div.polaroid-container {
   box-sizing: border-box;
+  use flex
 }
 
 .polaroid-body::after {
-
-  content: "";
   clear: both;
   display: table;
 }
 div.polaroid {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%),
-    0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin-bottom: 25px;
-    max-width: 31.05%;
-    width: 125%;
-    padding: 13px;
-    margin: 20px;
-    float: left;
+  background-color: white;
+  margin-bottom: 25px;
+  max-width: 31.05%;
+  width: 125%;
+  padding: 13px;
+  margin: 13 px;
+  float: left;
 }
 
 div.container {
-  text-align: center;
-  padding: 10px 20px;
+  text-align: left;
+  padding: 1px 1px;
   /* image colums hover state  */
-  .container {
-    position: relative;
-    width: 50%;
+  position: relative;
+  width: 50%;
   }
 
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-  .overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-  }
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
 
-  .container:hover .overlay {
-    bottom: 0;
-    height: 100%;
-  }
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
 
-  .text {
-    white-space: nowrap;
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
